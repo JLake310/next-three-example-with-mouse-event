@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <div className="wrapper">
-        <Canvas colorManagement camera={{ position: [0, 0, 200] }}>
+        <Canvas colorManagement camera={{ position: [0, 0, 2] }}>
           <Lights />
           <Model />
           <OrbitControls ref={controlsRef} />
