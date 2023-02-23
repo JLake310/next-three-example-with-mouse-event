@@ -8,13 +8,16 @@ const App = () => {
   const controlsRef = useRef();
 
   return (
-    <div>
-      <Canvas colorManagement camera={{ position: [0, 0, 300] }}>
-        <Lights />
-        <Model />
-        <OrbitControls ref={controlsRef} />
-      </Canvas>
-    </div>
+    <>
+      <div className="wrapper">
+        <Canvas colorManagement camera={{ position: [0, 0, 200] }}>
+          <Lights />
+          <Model />
+          <OrbitControls ref={controlsRef} />
+        </Canvas>
+        <span>3d model example</span>
+      </div>
+    </>
   );
 };
 
