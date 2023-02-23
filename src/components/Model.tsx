@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Html } from "drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Object3D, Vector3 } from "three";
+import { Object3D } from "three";
 import * as THREE from "three";
 
 interface GroupRef {
@@ -24,22 +24,10 @@ const Model = () => {
   /* Load model */
   useEffect(() => {
     const loader = new GLTFLoader();
-    loader.load("scene.gltf", async (gltf) => {
+    loader.load("gltf(size up).gltf", async (gltf) => {
       setModel(gltf.scene);
     });
   }, []);
-
-  /* Adjust camera position to center model */
-  useEffect(() => {
-    if (!model || !cameraRef.current) return;
-
-    const box = new THREE.Box3().setFromObject(model);
-    const center = new Vector3();
-    box.getCenter(center);
-
-    cameraRef.current.position.set(center.x, center.y, box.max.z * 2);
-    cameraRef.current.lookAt(center);
-  }, [model]);
 
   /* Rotate model with mouse event */
   useEffect(() => {
@@ -61,7 +49,7 @@ const Model = () => {
       </Html>
       {model ? (
         <>
-          <group ref={groupRef} position={[0, -70, 0]} dispose={null}>
+          <group ref={groupRef} position={[24.5, -6.75, -8.25]} dispose={null}>
             <primitive name="Object_0" object={model} />
           </group>
           <perspectiveCamera
