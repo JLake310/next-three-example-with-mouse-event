@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react";
 import { Html } from "drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Object3D } from "three";
-import * as THREE from "three";
 
 interface GroupRef {
   rotation: {
@@ -16,7 +15,6 @@ const Model = () => {
   /* Refs */
   const groupRef = useRef<GroupRef>({ rotation: { x: 0, y: 0, z: 0 } });
   const controlsRef = useRef<HTMLDivElement>(null);
-  const cameraRef = useRef<THREE.PerspectiveCamera>(null);
 
   /* State */
   const [model, setModel] = useState<Object3D | null>(null);
@@ -52,13 +50,6 @@ const Model = () => {
           <group ref={groupRef} position={[24.5, -6.75, -8.25]} dispose={null}>
             <primitive name="Object_0" object={model} />
           </group>
-          <perspectiveCamera
-            ref={cameraRef}
-            fov={45}
-            aspect={window.innerWidth / window.innerHeight}
-            near={0.1}
-            far={1000}
-          />
         </>
       ) : (
         <Html>Loading...</Html>
