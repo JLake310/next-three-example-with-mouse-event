@@ -2,12 +2,15 @@ import React, { useEffect, useState, useRef } from "react";
 import { Html } from "drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Object3D } from "three/src/core/Object3D"; //Object3D types
+import { Euler } from "three";
 
 interface group {
   current: {
     rotation: {
       x: number;
       y: number;
+      z: number;
+      rotation: Euler;
     };
   };
 }
@@ -15,7 +18,7 @@ interface group {
 const Model = () => {
   /* Refs */
   const group: group = useRef();
-  const controlsRef = useRef();
+  const controlsRef = useRef<HTMLElement | null>(null);
 
   /* State */
   const [model, setModel] = useState<Object3D | null>(null);
@@ -24,8 +27,7 @@ const Model = () => {
   useEffect(() => {
     const loader = new GLTFLoader();
     loader.load("scene.gltf", async (gltf) => {
-      const nodes = await gltf.parser.getDependencies("node");
-      setModel(nodes[0]);
+      setModel(gltf.scene);
     });
   }, []);
 
@@ -34,8 +36,7 @@ const Model = () => {
     if (!controlsRef.current || !group.current) return;
 
     controlsRef.current.addEventListener("change", () => {
-      const { x, y, z } = group.current.rotation;
-      group.current.rotation.set(x, y + 0.01, z); // rotate 0.01 radian on Y-axis
+      group.current.rotation.y += 0.01; // rotate 0.01 radian on Y-axis
     });
 
     return () => {
@@ -46,7 +47,7 @@ const Model = () => {
   return (
     <>
       {model ? (
-        <group ref={group} position={[0, -150, 0]} dispose={null}>
+        <group ref={group} position={[0, -100, 0]} dispose={null}>
           <primitive ref={group} name="Object_0" object={model} />
         </group>
       ) : (
