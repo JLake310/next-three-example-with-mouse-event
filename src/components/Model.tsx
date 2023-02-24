@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Html } from "drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Object3D } from "three";
+import { Object3D, Vector3 } from "three";
 
 interface GroupRef {
   rotation: {
@@ -11,7 +11,14 @@ interface GroupRef {
   };
 }
 
-const Model = () => {
+type Props = {
+  mbti: string;
+  model_position: Vector3;
+};
+
+const Model = (props: Props) => {
+  const mbti = props.mbti;
+  const model_position = props.model_position;
   /* Refs */
   const groupRef = useRef<GroupRef>({ rotation: { x: 0, y: 0, z: 0 } });
   const controlsRef = useRef<HTMLDivElement>(null);
@@ -22,7 +29,7 @@ const Model = () => {
   /* Load model */
   useEffect(() => {
     const loader = new GLTFLoader();
-    loader.load("gltf(size up).gltf", async (gltf) => {
+    loader.load(mbti + ".gltf", async (gltf) => {
       setModel(gltf.scene);
     });
   }, []);
@@ -47,7 +54,7 @@ const Model = () => {
       </Html>
       {model ? (
         <>
-          <group ref={groupRef} position={[24.5, -6.75, -8.25]} dispose={null}>
+          <group ref={groupRef} position={model_position} dispose={null}>
             <primitive name="Object_0" object={model} />
           </group>
         </>
