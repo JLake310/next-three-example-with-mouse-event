@@ -19,7 +19,7 @@ const ModelViewer = (props: Props) => {
   return (
     <Canvas colorManagement camera={{ position: camera_position }}>
       <Lights />
-      <Model mbti="ISTJ" model_position={model_position} />
+      <Model mbti={mbti} model_position={model_position} />
       <OrbitControls ref={controlsRef} />
     </Canvas>
   );
