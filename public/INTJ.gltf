@@ -452,7 +452,7 @@
   "buffers": [
     {
       "byteLength": 4241808,
-      "uri": "./gltf(size_up)_resources/gltf(size_up).bin"
+      "uri": "./INTJ_resources/INTJ.bin"
     }
   ],
   "cameras": [
@@ -518,19 +518,19 @@
     }
   ],
   "images": [
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_485_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_487_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_490_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_493_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_495_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_497_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_499_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_501_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_503_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_505_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_507_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_509_occlusion.png" },
-    { "uri": "./gltf(size_up)_resources/MBTI___-1.stl_511_occlusion.png" }
+    { "uri": "./INTJ_resources/MBTI___-1.stl_485_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_487_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_490_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_493_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_495_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_497_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_499_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_501_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_503_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_505_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_507_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_509_occlusion.png" },
+    { "uri": "./INTJ_resources/MBTI___-1.stl_511_occlusion.png" }
   ],
   "materials": [
     {
@@ -918,7 +918,7 @@
         10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0,
         0.0, 1.0
       ],
-      "name": "INTJ"
+      "name": "INTJ_resources"
     },
     {
       "children": [22],
