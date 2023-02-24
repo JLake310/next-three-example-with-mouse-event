@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <div className="wrapper">
-        <ModelViewer mbti="원점" />
+        <ModelViewer mbti="원점(ground)" />
         <span>3d model example</span>
       </div>
     </>

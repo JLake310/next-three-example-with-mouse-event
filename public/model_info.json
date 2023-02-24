@@ -10,5 +10,13 @@
   "원점": {
     "position": [0, 0, 0],
     "camera": [0, 0, 4]
+  },
+  "원점(native)": {
+    "position": [0, 0, 0],
+    "camera": [0, 0, 4]
+  },
+  "원점(ground)": {
+    "position": [0, 0, 0],
+    "camera": [0, 0, 3]
   }
 }
