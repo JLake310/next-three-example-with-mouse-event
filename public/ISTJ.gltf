@@ -1,0 +1,351 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 195900,
+      "max": [-2345.072509765625, -757.9013061523438, 198.65185546875],
+      "min": [-2522.0625, -847.1365356445313, 37.5537223815918],
+      "type": "VEC3"
+    },
+    { "bufferView": 1, "componentType": 5126, "count": 195900, "type": "VEC3" },
+    { "bufferView": 2, "componentType": 5126, "count": 195900, "type": "VEC2" },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 195900,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 44700,
+      "max": [-2440.562255859375, -820.5267944335938, 151.69422912597656],
+      "min": [-2453.06884765625, -834.0853271484375, 133.95672607421875],
+      "type": "VEC3"
+    },
+    { "bufferView": 5, "componentType": 5126, "count": 44700, "type": "VEC3" },
+    { "bufferView": 6, "componentType": 5126, "count": 44700, "type": "VEC2" },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 44700,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 44700,
+      "max": [-2423.284912109375, -819.677978515625, 151.77044677734375],
+      "min": [-2435.79150390625, -833.2364501953125, 134.03294372558594],
+      "type": "VEC3"
+    },
+    { "bufferView": 9, "componentType": 5126, "count": 44700, "type": "VEC3" },
+    { "bufferView": 10, "componentType": 5126, "count": 44700, "type": "VEC2" },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 44700,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": { "generator": "Luxion KeyShot", "version": "2.0" },
+  "bufferViews": [
+    { "buffer": 0, "byteLength": 2350800, "byteOffset": 0, "byteStride": 12 },
+    {
+      "buffer": 0,
+      "byteLength": 2350800,
+      "byteOffset": 2350800,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1567200,
+      "byteOffset": 4701600,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 783600, "byteOffset": 6268800 },
+    {
+      "buffer": 0,
+      "byteLength": 536400,
+      "byteOffset": 7052400,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 536400,
+      "byteOffset": 7588800,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 357600,
+      "byteOffset": 8125200,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 178800, "byteOffset": 8482800 },
+    {
+      "buffer": 0,
+      "byteLength": 536400,
+      "byteOffset": 8661600,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 536400,
+      "byteOffset": 9198000,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 357600,
+      "byteOffset": 9734400,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 178800, "byteOffset": 10092000 }
+  ],
+  "buffers": [{ "byteLength": 10270800, "uri": "./ISTJ_resources/ISTJ.bin" }],
+  "cameras": [
+    {
+      "name": "active",
+      "orthographic": {
+        "xmag": 90.0,
+        "ymag": 90.0,
+        "zfar": 20514.60546875,
+        "znear": 0.0010000000474974513
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Perspective",
+      "perspective": {
+        "aspectRatio": 1.0,
+        "yfov": 0.6911120076384465,
+        "zfar": 38056.50390625,
+        "znear": 0.0010000000474974513
+      },
+      "type": "perspective"
+    },
+    {
+      "name": "Top",
+      "orthographic": {
+        "xmag": 90.0,
+        "ymag": 90.0,
+        "zfar": 0.10000000149011612,
+        "znear": 0.0010000000474974513
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Front",
+      "orthographic": {
+        "xmag": 90.0,
+        "ymag": 90.0,
+        "zfar": 62786.5390625,
+        "znear": 3120.486083984375
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Right",
+      "orthographic": {
+        "xmag": 90.0,
+        "ymag": 90.0,
+        "zfar": 260404.859375,
+        "znear": 115848.8984375
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "카메라 1",
+      "orthographic": {
+        "xmag": 90.0,
+        "ymag": 90.0,
+        "zfar": 0.10000000149011612,
+        "znear": 0.0010000000474974513
+      },
+      "type": "orthographic"
+    }
+  ],
+  "images": [
+    { "uri": "./ISTJ_resources/MBTI___-1.stl_443_occlusion.png" },
+    { "uri": "./ISTJ_resources/MBTI___-1.stl_446_occlusion.png" },
+    { "uri": "./ISTJ_resources/MBTI___-1.stl_448_occlusion.png" }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 0 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06358134746551514, 0.7613094449043274, 0.16341456770896912, 1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 1 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 2 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MBTI___-1.stl(817B0A9D-592A-4C6A-B173-B6AB8505A913)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 1, "POSITION": 0, "TEXCOORD_0": 2 },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MBTI___-1.stl(A4124BCB-A933-48CF-ACE8-AABDF6171A4C)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 5, "POSITION": 4, "TEXCOORD_0": 6 },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MBTI___-1.stl(B13EEDC6-B4D9-4068-8669-384A524FB516)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 9, "POSITION": 8, "TEXCOORD_0": 10 },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "matrix": [
+        0.996464261371627, 1.6004975122996257e-11, -0.0840179701697546, 0.0,
+        -0.014068118941215142, 0.9858819895632861, -0.16684975494580045, 0.0,
+        0.08283179998397827, 0.16744178533554077, 0.982396125793457, 0.0,
+        -121246.1640625, 11800.5634765625, 45252.046875, 1.0
+      ],
+      "name": "active"
+    },
+    {
+      "camera": 1,
+      "matrix": [
+        0.9868587086780422, -2.6168652486613375e-7, -0.16159094367764304, 0.0,
+        -0.12768206024908926, 0.6129054515283024, -0.7797733624183251, 0.0,
+        0.09904000163078308, 0.7901570200920104, 0.6048499941825868, 0.0,
+        -1910.719970703125, 3912.2499999999995, 3108.1699218750005, 1.0
+      ],
+      "name": "Perspective"
+    },
+    {
+      "camera": 2,
+      "matrix": [
+        100.0, 0.0, 0.0, 0.0, 0.0, 1.22465002895872e-12, -10000.0, 0.0, 0.0,
+        100.0, 1.22465002895872e-14, 0.0, -2865.429931640625, 1167.969970703125,
+        -148.82600402832017, 1.0
+      ],
+      "name": "Top"
+    },
+    {
+      "camera": 3,
+      "matrix": [
+        100.0, 0.0, 0.0, 0.0, 0.0, 10000.0, 1.22465002895872e-12, 0.0, 0.0,
+        -1.22465002895872e-14, 100.0, 0.0, -2303.280029296875,
+        -76.1880035400392, 1138.3399658203125, 1.0
+      ],
+      "name": "Front"
+    },
+    {
+      "camera": 4,
+      "matrix": [
+        0.0, 1.22465002895872e-14, -100.0, 0.0, 0.0, 10000.0,
+        1.22465002895872e-12, 0.0, 100.0, 0.0, 0.0, 0.0, -1404.72998046875,
+        -76.18800354003906, 8.269470214843741, 1.0
+      ],
+      "name": "Right"
+    },
+    {
+      "camera": 5,
+      "matrix": [
+        0.9798379005467768, -1.0097250657814527e-7, 0.19979638346916645, 0.0,
+        -0.034174275467317064, 0.9852638802222653, 0.16759737703828068, 0.0,
+        -0.19685199856758118, -0.17104600369930267, 0.9653980135917664, 0.0,
+        -24528.69921875, 6718.8701171875, 9528.8701171875, 1.0
+      ],
+      "name": "카메라 1"
+    },
+    {
+      "mesh": 0,
+      "name": "MBTI___-1.stl(817B0A9D-592A-4C6A-B173-B6AB8505A913)"
+    },
+    { "children": [6], "name": "Layer 46" },
+    {
+      "mesh": 1,
+      "name": "MBTI___-1.stl(A4124BCB-A933-48CF-ACE8-AABDF6171A4C)"
+    },
+    {
+      "mesh": 2,
+      "name": "MBTI___-1.stl(B13EEDC6-B4D9-4068-8669-384A524FB516)"
+    },
+    { "children": [8, 9], "name": "Layer 47" },
+    {
+      "children": [7, 10],
+      "matrix": [
+        5.0, 0.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0,
+        0.0, 1.0
+      ],
+      "name": "ISTJ"
+    },
+    {
+      "children": [11],
+      "matrix": [
+        10.0, 0.0, 0.0, 0.0, 0.0, 1.2246499760191609e-15, -10.0, 0.0, 0.0, 10.0,
+        1.2246499760191609e-15, 0.0, 0.0, 5021.72021484375,
+        -1.2010000429289153e-28, 1.0
+      ],
+      "name": "mbti"
+    },
+    { "children": [12], "name": "Default" },
+    {
+      "children": [13],
+      "matrix": [
+        0.001, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0,
+        0.0, 0.0, 1.0
+      ],
+      "name": "lux_root"
+    }
+  ],
+  "samplers": [
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 },
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 },
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 }
+  ],
+  "scenes": [{ "nodes": [0, 1, 2, 3, 4, 5, 14] }],
+  "textures": [
+    { "sampler": 0, "source": 0 },
+    { "sampler": 1, "source": 1 },
+    { "sampler": 2, "source": 2 }
+  ]
+}
