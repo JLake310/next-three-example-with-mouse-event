@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Html } from "drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Object3D, Vector3 } from "three";
+import * as THREE from "three";
 
 interface GroupRef {
   rotation: {
@@ -22,6 +23,7 @@ const Model = (props: Props) => {
   /* Refs */
   const groupRef = useRef<GroupRef>({ rotation: { x: 0, y: 0, z: 0 } });
   const controlsRef = useRef<HTMLDivElement>(null);
+  const cameraRef = useRef<THREE.PerspectiveCamera>(null);
 
   /* State */
   const [model, setModel] = useState<Object3D | null>(null);
@@ -33,6 +35,22 @@ const Model = (props: Props) => {
       setModel(gltf.scene);
     });
   }, []);
+
+  /* Adjust camera position to center model and fit it to the screen */
+  useEffect(() => {
+    if (!model || !cameraRef.current) return;
+
+    const box = new THREE.Box3().setFromObject(model);
+    const center = new Vector3();
+    box.getCenter(center);
+
+    const distance = box.getSize(new Vector3()).length();
+    const fov = cameraRef.current.fov * (Math.PI / 180);
+    let cameraZ = Math.abs(distance / (2 * Math.tan(fov / 2)));
+
+    cameraRef.current.position.set(center.x, center.y, cameraZ);
+    cameraRef.current.lookAt(center);
+  }, [model]);
 
   /* Rotate model with mouse event */
   useEffect(() => {
