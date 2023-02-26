@@ -1,0 +1,379 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 61548,
+      "max": [2895.836669921875, 27254.748046875, 1031.4093017578125],
+      "min": [-1244.74609375, 26226.091796875, -3029.94970703125],
+      "type": "VEC3"
+    },
+    { "bufferView": 1, "componentType": 5126, "count": 61548, "type": "VEC3" },
+    { "bufferView": 2, "componentType": 5126, "count": 61548, "type": "VEC2" },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 61548,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 29094,
+      "max": [1065.882080078125, 26476.970703125, -790.2092895507813],
+      "min": [857.8822021484375, 26269.380859375, -977.341064453125],
+      "type": "VEC3"
+    },
+    { "bufferView": 5, "componentType": 5126, "count": 29094, "type": "VEC3" },
+    { "bufferView": 6, "componentType": 5126, "count": 29094, "type": "VEC2" },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 29094,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 29094,
+      "max": [777.8651123046875, 26476.970703125, -790.2092895507813],
+      "min": [569.865234375, 26269.380859375, -977.341064453125],
+      "type": "VEC3"
+    },
+    { "bufferView": 9, "componentType": 5126, "count": 29094, "type": "VEC3" },
+    { "bufferView": 10, "componentType": 5126, "count": 29094, "type": "VEC2" },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 29094,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 3072,
+      "max": [1012.9423828125, 26440.380859375, -990.7669677734375],
+      "min": [621.2134399414063, 26141.7265625, -1420.9549560546875],
+      "type": "VEC3"
+    },
+    { "bufferView": 13, "componentType": 5126, "count": 3072, "type": "VEC3" },
+    { "bufferView": 14, "componentType": 5126, "count": 3072, "type": "VEC2" },
+    { "bufferView": 15, "componentType": 5125, "count": 3072, "type": "SCALAR" }
+  ],
+  "asset": { "generator": "Luxion KeyShot", "version": "2.0" },
+  "bufferViews": [
+    { "buffer": 0, "byteLength": 738576, "byteOffset": 0, "byteStride": 12 },
+    {
+      "buffer": 0,
+      "byteLength": 738576,
+      "byteOffset": 738576,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 492384,
+      "byteOffset": 1477152,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 246192, "byteOffset": 1969536 },
+    {
+      "buffer": 0,
+      "byteLength": 349128,
+      "byteOffset": 2215728,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 349128,
+      "byteOffset": 2564856,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 232752,
+      "byteOffset": 2913984,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 116376, "byteOffset": 3146736 },
+    {
+      "buffer": 0,
+      "byteLength": 349128,
+      "byteOffset": 3263112,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 349128,
+      "byteOffset": 3612240,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 232752,
+      "byteOffset": 3961368,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 116376, "byteOffset": 4194120 },
+    {
+      "buffer": 0,
+      "byteLength": 36864,
+      "byteOffset": 4310496,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36864,
+      "byteOffset": 4347360,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24576,
+      "byteOffset": 4384224,
+      "byteStride": 8
+    },
+    { "buffer": 0, "byteLength": 12288, "byteOffset": 4408800 }
+  ],
+  "buffers": [{ "byteLength": 4421088, "uri": "./ENTP_resources/ENTP.bin" }],
+  "cameras": [
+    {
+      "name": "active",
+      "orthographic": {
+        "xmag": 1.7346700429916382,
+        "ymag": 1.7346700429916382,
+        "zfar": 244968.953125,
+        "znear": 243855.921875
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Perspective",
+      "perspective": {
+        "aspectRatio": 1.0,
+        "yfov": 1.1740917176586387,
+        "zfar": 28495.212890625,
+        "znear": 23836.869140625
+      },
+      "type": "perspective"
+    },
+    {
+      "name": "Top",
+      "orthographic": {
+        "xmag": 67.1864013671875,
+        "ymag": 67.1864013671875,
+        "zfar": 39972.05078125,
+        "znear": 35910.69140625
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Front",
+      "orthographic": {
+        "xmag": 1.7346700429916382,
+        "ymag": 1.7346700429916382,
+        "zfar": 36555.09765625,
+        "znear": 35442.078125
+      },
+      "type": "orthographic"
+    },
+    {
+      "name": "Right",
+      "orthographic": {
+        "xmag": 179.99899291992188,
+        "ymag": 179.99899291992188,
+        "zfar": 10511.1357421875,
+        "znear": 6370.552734375
+      },
+      "type": "orthographic"
+    }
+  ],
+  "images": [
+    { "uri": "./ENTP_resources/MBTI___-1.stl_7_occlusion.png" },
+    { "uri": "./ENTP_resources/MBTI___-1.stl_10_occlusion.png" },
+    { "uri": "./ENTP_resources/MBTI___-1.stl_12_occlusion.png" },
+    { "uri": "./ENTP_resources/MBTI___-1.stl_15_occlusion.png" }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 0 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 1 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 2 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "occlusionTexture": { "index": 3 },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [1.0, 0.4521338939666748, 0.32301682233810425, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MBTI___-1.stl(7108E24A-87AB-48D4-927B-B8BE32933D40)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 1, "POSITION": 0, "TEXCOORD_0": 2 },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MBTI___-1.stl(9ED568F7-D4E0-4373-B94D-EEDF45EEB456)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 5, "POSITION": 4, "TEXCOORD_0": 6 },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MBTI___-1.stl(7087D858-0539-4B0A-9282-4AFD64E38E2C)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 9, "POSITION": 8, "TEXCOORD_0": 10 },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MBTI___-1.stl(74B3705C-DBAA-4800-9EE2-E93FC1D5C24C)-mesh",
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 13, "POSITION": 12, "TEXCOORD_0": 14 },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.2246468525851679e-16, 0.0, 0.0,
+        -1.2246468525851679e-16, 1.0, 0.0, -65.83929443359375,
+        -921.3951416015625, 244412.4375, 1.0
+      ],
+      "name": "active"
+    },
+    {
+      "camera": 1,
+      "matrix": [
+        0.7500041275117181, 5.3027497295965e-17, -0.4330023753206622, 0.0,
+        -0.21650237914191653, 0.7499972483179491, -0.37500412752307566, 0.0,
+        0.4330023753206622, 0.5000027516744787, 0.7500041275117182, 0.0,
+        691.4747314453125, 2893.070068359374, 31893.75830078125, 1.0
+      ],
+      "name": "Perspective"
+    },
+    {
+      "camera": 2,
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.2246467991473535e-16, -1.0, 0.0, 0.0, 1.0,
+        1.2246467991473535e-16, 0.0, -9959.705444335938, 36942.10156249999,
+        -422.7617187499927, 1.0
+      ],
+      "name": "Top"
+    },
+    {
+      "camera": 3,
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.2246467991473535e-16, 0.0, 0.0,
+        -1.2246467991473535e-16, 1.0, 0.0, -825.5452880859375,
+        -1.138964338007243e-12, 35998.587890625, 1.0
+      ],
+      "name": "Front"
+    },
+    {
+      "camera": 4,
+      "matrix": [
+        0.0, 1.2246467991473535e-16, -1.0, 0.0, 0.0, 1.0,
+        1.2246467991473535e-16, 0.0, 1.0, 0.0, 0.0, 0.0, 8440.844360351563, 0.0,
+        26698.23828125, 1.0
+      ],
+      "name": "Right"
+    },
+    {
+      "mesh": 0,
+      "name": "MBTI___-1.stl(7108E24A-87AB-48D4-927B-B8BE32933D40)"
+    },
+    { "children": [5], "name": "Layer 64" },
+    {
+      "mesh": 1,
+      "name": "MBTI___-1.stl(9ED568F7-D4E0-4373-B94D-EEDF45EEB456)"
+    },
+    {
+      "mesh": 2,
+      "name": "MBTI___-1.stl(7087D858-0539-4B0A-9282-4AFD64E38E2C)"
+    },
+    { "children": [7, 8], "name": "Layer 65" },
+    {
+      "mesh": 3,
+      "name": "MBTI___-1.stl(74B3705C-DBAA-4800-9EE2-E93FC1D5C24C)"
+    },
+    { "children": [10], "name": "Layer 66" },
+    { "children": [6, 9, 11], "name": "ENTP" },
+    {
+      "children": [12],
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.2246467991473532e-16, -0.9999999999999999,
+        0.0, 0.0, 0.9999999999999999, 1.2246467991473532e-16, 0.0,
+        -825.5452880859375, 0.0, 26698.23828125, 1.0
+      ],
+      "name": "ENTP"
+    },
+    { "children": [13], "name": "Default" },
+    {
+      "children": [14],
+      "matrix": [
+        0.001, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0,
+        0.0, 0.0, 1.0
+      ],
+      "name": "lux_root"
+    }
+  ],
+  "samplers": [
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 },
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 },
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 },
+    { "magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497 }
+  ],
+  "scenes": [{ "nodes": [0, 1, 2, 3, 4, 15] }],
+  "textures": [
+    { "sampler": 0, "source": 0 },
+    { "sampler": 1, "source": 1 },
+    { "sampler": 2, "source": 2 },
+    { "sampler": 3, "source": 3 }
+  ]
+}
