@@ -4,20 +4,18 @@
 
 적당한 레퍼런스가 있어서, 가져와서 마우스 이벤트를 추가해보았습니다.
 
-public 디렉토리에 모델 이름을 mbti에 맞추어 업로드 해야합니다.
-### 2/26
-
 ISTP 모델을 제외한 모든 모델들 업로드 해뒀습니다.
 
 컴포넌트화 해뒀기 때문에 갖다쓰기 쉽습니다.
 
-### 2/24
-<img width="389" alt="image" src="https://user-images.githubusercontent.com/86578246/221186748-812d0156-b355-4bfc-b491-094439991a37.png">
+![demo2](https://user-images.githubusercontent.com/86578246/221409978-f252664f-cf0d-43b3-b30b-512f0a7ed519.gif)
 
-ModelViewer의 props 중 mbti 부분에 해당 mbti를 넣으면 해당하는 모델이 뜨게끔 모듈화했습니다.
+ModelViewer의 props 중 mbti 부분에 해당 mbti를 넣으면 해당하는 모델이 뜨게끔 컴포넌트화 해뒀습니다.
+ 
 
 ## Demo
-![demo](https://user-images.githubusercontent.com/86578246/220892792-8b0c69e9-d244-4112-9ac9-8287ff219bd2.gif)
+![demo](https://user-images.githubusercontent.com/86578246/221409732-f3031291-f17b-447b-b55c-d62100819acc.gif)
+
 
 
 ## Usage
