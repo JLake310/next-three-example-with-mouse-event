@@ -1,11 +1,11 @@
 import React from "react";
-import ModelViewer from "./modelViewer";
+import ModelViewer from "@/components/ModelViewer";
 
 const App = () => {
   return (
     <>
       <div className="wrapper">
-        <ModelViewer mbti="ISTP" />
+        <ModelViewer mbti="INFJ" />
         <span>3d model example</span>
       </div>
     </>
