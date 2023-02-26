@@ -9,6 +9,7 @@ ISTP 모델을 제외한 모든 모델들 업로드 해뒀습니다.
 컴포넌트화 해뒀기 때문에 갖다쓰기 쉽습니다.
 
 컴포넌트 사용 예시입니다.
+
 ![demo2](https://user-images.githubusercontent.com/86578246/221409978-f252664f-cf0d-43b3-b30b-512f0a7ed519.gif)
 
 ## Demo
