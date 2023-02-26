@@ -14,12 +14,11 @@ interface GroupRef {
 
 type Props = {
   mbti: string;
-  model_position: Vector3;
 };
 
 const Model = (props: Props) => {
   const mbti = props.mbti;
-  const model_position = props.model_position;
+
   /* Refs */
   const groupRef = useRef<GroupRef>({ rotation: { x: 0, y: 0, z: 0 } });
   const controlsRef = useRef<HTMLDivElement>(null);
@@ -72,7 +71,7 @@ const Model = (props: Props) => {
       </Html>
       {model ? (
         <>
-          <group ref={groupRef} position={model_position} dispose={null}>
+          <group ref={groupRef} position={[0, 0, 0]} dispose={null}>
             <primitive name="Object_0" object={model} />
           </group>
         </>
