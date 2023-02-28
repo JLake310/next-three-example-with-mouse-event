@@ -266,8 +266,8 @@
       "perspective": {
         "aspectRatio": 1.0,
         "yfov": 0.6911154697478635,
-        "zfar": 11105.580078125,
-        "znear": 8508.8017578125
+        "zfar": 42584.58203125,
+        "znear": 0.0010000000474974513
       },
       "type": "perspective"
     },
@@ -276,8 +276,8 @@
       "perspective": {
         "aspectRatio": 1.0,
         "yfov": 1.1740917176586387,
-        "zfar": 26126.544921875,
-        "znear": 21046.7578125
+        "zfar": 59017.109375,
+        "znear": 0.0010000000474974513
       },
       "type": "perspective"
     },
@@ -286,8 +286,8 @@
       "orthographic": {
         "xmag": 76.50039672851563,
         "ymag": 76.50039672851563,
-        "zfar": 39876.046875,
-        "znear": 37273.18359375
+        "zfar": 38180.69921875,
+        "znear": 35577.8359375
       },
       "type": "orthographic"
     },
@@ -296,8 +296,8 @@
       "orthographic": {
         "xmag": 179.99899291992188,
         "ymag": 179.99899291992188,
-        "zfar": 36818.2109375,
-        "znear": 34657.578125
+        "zfar": 65853.8984375,
+        "znear": 5621.8984375
       },
       "type": "orthographic"
     },
@@ -306,8 +306,8 @@
       "orthographic": {
         "xmag": 179.99899291992188,
         "ymag": 179.99899291992188,
-        "zfar": 5542.53564453125,
-        "znear": 559.04638671875
+        "zfar": 33166.7890625,
+        "znear": 0.0010000000474974513
       },
       "type": "orthographic"
     }
@@ -327,7 +327,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 0 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -336,7 +336,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 1 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.8037934899330139, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.8037937879562378, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -345,7 +345,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 2 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.8037934899330139, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.8037937879562378, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -354,7 +354,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 3 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.8037934899330139, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.8037937879562378, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -363,7 +363,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 4 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.8037934899330139, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.8037937879562378, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -390,7 +390,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 7 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.4521338939666748, 0.32301682233810425, 1.0],
+        "baseColorFactor": [1.0, 0.4521334171295166, 0.3230167031288147, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -490,10 +490,10 @@
     {
       "camera": 0,
       "matrix": [
-        0.9999472733088139, -1.8236665508264416e-7, 0.010266448497134805, 0.0,
-        0.0016296894308398342, 0.9873233169004142, -0.15871344879511565, 0.0,
-        -0.010136275552213192, 0.15872181951999664, 0.9872713088989258, 0.0,
-        -99.40618896484375, -75.89815521240234, 9682.36328125, 1.0
+        0.9992589707749727, -1.7256274670307548e-7, 0.03849042996257118, 0.0,
+        0.004296419006630355, 0.9937510949685026, -0.11153587409492824, 0.0,
+        -0.03824988752603531, 0.11161859333515167, 0.9930146932601929, 0.0,
+        -259.07220458984375, 1369.3245849609375, 11304.984375, 1.0
       ],
       "name": "active"
     },
@@ -574,7 +574,8 @@
       "children": [17],
       "matrix": [
         1.0, 0.0, 0.0, 0.0, 0.0, 1.22465002895872e-16, -1.0, 0.0, 0.0, 1.0,
-        1.22465002895872e-16, 0.0, -6715.68017578125, 0.0, 26237.5, 1.0
+        1.22465002895872e-16, 0.0, -6715.68017578125, 1695.3468957494956,
+        26237.5, 1.0
       ],
       "name": "ESTP"
     },
