@@ -826,8 +826,8 @@
       "perspective": {
         "aspectRatio": 1.0,
         "yfov": 1.1740917176586387,
-        "zfar": 6373.1845703125,
-        "znear": 2996.801025390625
+        "zfar": 6777.1640625,
+        "znear": 3651.276611328125
       },
       "type": "perspective"
     },
@@ -836,8 +836,8 @@
       "perspective": {
         "aspectRatio": 1.0,
         "yfov": 1.1740917176586387,
-        "zfar": 23541.525390625,
-        "znear": 18967.69140625
+        "zfar": 6777.1640625,
+        "znear": 3651.276611328125
       },
       "type": "perspective"
     },
@@ -846,8 +846,8 @@
       "orthographic": {
         "xmag": 76.08039855957031,
         "ymag": 76.08039855957031,
-        "zfar": 39719.515625,
-        "znear": 37533.671875
+        "zfar": 38289.6640625,
+        "znear": 36103.8203125
       },
       "type": "orthographic"
     },
@@ -904,7 +904,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 0 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -913,7 +913,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 1 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -922,7 +922,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 2 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -931,7 +931,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 3 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -940,7 +940,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 4 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -949,7 +949,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 5 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -958,7 +958,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 6 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -967,7 +967,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 7 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -976,7 +976,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 8 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -985,7 +985,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 9 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -994,7 +994,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 10 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1003,7 +1003,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 11 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1012,7 +1012,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 12 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1021,7 +1021,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 13 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1030,7 +1030,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 14 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1039,7 +1039,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 15 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1048,7 +1048,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 16 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1057,7 +1057,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 17 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.6601468324661255, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.6601470112800598, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1066,7 +1066,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 18 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.37991777062416077, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1075,7 +1075,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 19 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.37991777062416077, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1102,7 +1102,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 22 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.37991777062416077, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1111,7 +1111,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 23 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.37991777062416077, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1120,7 +1120,7 @@
       "doubleSided": true,
       "occlusionTexture": { "index": 24 },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [1.0, 0.37991800904273987, 0.0, 1.0],
+        "baseColorFactor": [1.0, 0.37991777062416077, 0.0, 1.0],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
       }
@@ -1407,47 +1407,45 @@
     {
       "camera": 0,
       "matrix": [
-        0.865883857463615, 8.890255198679142e-11, 0.015569702674020913, 0.0,
-        0.0028406670538215825, 0.851488013198245, -0.1579791132515616, 0.0,
-        -0.017676617950201035, 0.1824483871459961, 0.9830565452575684, 0.0,
-        -82.81531524658203, -829.7218017578125, 4605.61279296875, 1.0
+        0.8652934301832051, 4.484451254782584e-9, 0.03556564677739944, 0.0,
+        0.0005420416008364221, 0.8659234438804247, -0.013187695480889359, 0.0,
+        -0.041062965989112854, 0.015240720473229885, 0.9990403056144714, 0.0,
+        -88.54692840576172, 274.65826416015625, 5207.46630859375, 1.0
       ],
       "name": "active"
     },
     {
       "camera": 1,
       "matrix": [
-        0.7500041275117181, 5.3027497295965e-17, -0.4330023753206622, 0.0,
-        -0.21650237914191653, 0.7499972483179491, -0.37500412752307566, 0.0,
-        0.4330023753206622, 0.5000027516744787, 0.7500041275117182, 0.0,
-        -11019.37841796875, 2893.070068359374, 31649.46923828125, 1.0
+        0.8652934301832051, 4.484451254782584e-9, 0.03556564677739944, 0.0,
+        0.0005420416008364221, 0.8659234438804247, -0.013187695480889359, 0.0,
+        -0.041062965989112854, 0.015240720473229885, 0.9990403056144714, 0.0,
+        -88.54692840576172, 274.65826416015625, 5207.46630859375, 1.0
       ],
       "name": "Perspective"
     },
     {
       "camera": 2,
       "matrix": [
-        1.0, 0.0, 0.0, 0.0, 0.0, 1.2246467991473535e-16, -1.0, 0.0, 0.0, 1.0,
-        1.2246467991473535e-16, 0.0, -24266.798828125, 36942.10156249999,
-        -474.2499999999927, 1.0
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.22465002895872e-16, -1.0, 0.0, 0.0, 1.0,
+        1.22465002895872e-16, 0.0, -24266.80078125, 36942.1015625, -474.25, 1.0
       ],
       "name": "Top"
     },
     {
       "camera": 3,
       "matrix": [
-        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.2246467991473535e-16, 0.0, 0.0,
-        -1.2246467991473535e-16, 1.0, 0.0, -12536.3984375,
-        -1.2308312654830474e-12, 36504.44921875, 1.0
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.22465002895872e-16, 0.0, 0.0,
+        -1.22465002895872e-16, 1.0, 0.0, -12536.400390625,
+        -1.2308299995530958e-12, 36504.3984375, 1.0
       ],
       "name": "Front"
     },
     {
       "camera": 4,
       "matrix": [
-        0.0, 1.2246467991473535e-16, -1.0, 0.0, 0.0, 1.0,
-        1.2246467991473535e-16, 0.0, 1.0, 0.0, 0.0, 0.0, -2169.798828125, 0.0,
-        26453.94921875, 1.0
+        0.0, 1.22465002895872e-16, -1.0, 0.0, 0.0, 1.0, 1.22465002895872e-16,
+        0.0, 1.0, 0.0, 0.0, 0.0, -2169.800048828125, 0.0, 26453.900390625, 1.0
       ],
       "name": "Right"
     },
@@ -1564,9 +1562,9 @@
     {
       "children": [34],
       "matrix": [
-        1.0, 0.0, 0.0, 0.0, 0.0, 1.2246467991473532e-16, -0.9999999999999999,
-        0.0, 0.0, 0.9999999999999999, 1.2246467991473532e-16, 0.0,
-        -12536.3984375, 0.0, 26453.94921875, 1.0
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.22465002895872e-16, -1.0, 0.0, 0.0, 1.0,
+        1.22465002895872e-16, 0.0, -12536.400390625, 1429.8497642887078,
+        26453.900390625, 1.0
       ],
       "name": "ESFP"
     },
