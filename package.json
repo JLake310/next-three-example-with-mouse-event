@@ -14,15 +14,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "drei": "^1.5.7",
-    "next": "^9.5.5",
+    "drei": "^2.2.21",
+    "next": "^13.2.3",
     "next-transpile-modules": "^6.0.0",
     "prettier": "^2.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-intersection-observer": "^8.31.0",
     "react-three-fiber": "^5.3.7",
-    "three": "^0.123.0",
+    "three": "^0.150.1",
     "three-orbitcontrols": "^2.110.3"
   },
   "devDependencies": {
@@ -31,7 +31,7 @@
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "@types/three": "^0.103.2",
-    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-module-resolver": "^5.0.0",
     "babel-plugin-styled-components": "^1.11.1",
     "file-loader": "^6.2.0",
     "husky": "^4.3.5",
