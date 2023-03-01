@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <div className="wrapper">
-        <ModelViewer mbti="ENFJ" />
+        <ModelViewer mbti="ESFP" />
         <span>3d model example</span>
       </div>
     </>
