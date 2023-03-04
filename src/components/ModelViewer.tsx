@@ -3,6 +3,7 @@ import Model from "@/components/Model";
 import React, { useRef, useState } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls } from "drei";
+import styles from "../styles/layout.module.css";
 
 const MBTIs = [
   { name: "ENFJ" },
@@ -16,10 +17,10 @@ const MBTIs = [
   { name: "INFJ" },
   { name: "INFP" },
   { name: "INTJ" },
-  { name: "ISFJ" },
-  { name: "ISTJ" },
-  { name: "ISFP" },
   { name: "INTP" },
+  { name: "ISFJ" },
+  { name: "ISFP" },
+  { name: "ISTJ" },
   { name: "ISTP" },
 ];
 
@@ -32,24 +33,28 @@ const ModelViewer = () => {
   };
   return (
     <>
-      <div style={{ width: "400px" }}>
-        {MBTIs.map((MBTI) => (
-          <button
-            key={MBTI.name}
-            value={MBTI.name}
-            onClick={handleChange}
-            style={{ width: "40px", margin: 2 }}
-          >
-            {MBTI.name}
-          </button>
-        ))}
-      </div>
       <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
         <Lights />
         <Model mbti={mbtiState} />
         <OrbitControls ref={controlsRef} />
       </Canvas>
-      <span>{mbtiState}</span>
+      <div className={styles.button_container}>
+        {MBTIs.map((MBTI) => (
+          <button
+            key={MBTI.name}
+            value={MBTI.name}
+            onClick={handleChange}
+            className={styles.button}
+            style={
+              mbtiState === MBTI.name
+                ? { backgroundColor: "#334d92", color: "white" }
+                : {}
+            }
+          >
+            {MBTI.name}
+          </button>
+        ))}
+      </div>
     </>
   );
 };
