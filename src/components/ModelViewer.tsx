@@ -13,7 +13,7 @@ const ModelViewer = (props: Props) => {
   const controlsRef = useRef();
 
   return (
-    <Canvas colorManagement camera={{ position: [0, 0, 7] }}>
+    <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
       <Lights />
       <Model mbti={mbti} />
       <OrbitControls ref={controlsRef} />
