@@ -19,8 +19,6 @@ body {
 }
 
 canvas {
-  /* width: 50%; */
-  /* height: 25vh; */
   background-color: #eef2f1;
   border-radius: 5rem;
 }
@@ -31,8 +29,7 @@ div.wrapper {
   max-width: 100vw;
   width: 480px;
   margin: 0 auto;
-  text-align: center;
-  align-items: center;
+  place-items: center;
   background-color: #ffffff;
   height: 100vh;
 }
