@@ -20,12 +20,15 @@ body {
 
 canvas {
   width: 50%;
-  height: 25vh;
+  height: 50vh;
   background-color: white;
 }
 
 div.wrapper {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 480px;
   margin: 10% auto;
   text-align: center;
+  align-items: center;
 }
