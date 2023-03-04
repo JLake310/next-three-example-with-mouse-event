@@ -10,9 +10,7 @@
 
 ### 3/4 : 버튼 클릭 시 다른 모델들도 볼 수 있게 기능을 추가했습니다.
 
-<img width="790" alt="무제" src="https://user-images.githubusercontent.com/86578246/222900924-0dc8274f-f903-430e-97fd-f6ac6eeb13d1.png">
-
-
+<img width="790" alt="무제2" src="https://user-images.githubusercontent.com/86578246/222916945-95de2f3d-d9b0-44a1-a620-f727ba2c96b9.png">
 
 ## Demo
 ![demo](https://user-images.githubusercontent.com/86578246/221409732-f3031291-f17b-447b-b55c-d62100819acc.gif)
