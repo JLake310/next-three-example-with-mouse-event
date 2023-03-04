@@ -1,0 +1,14 @@
+.button_container {
+  max-width: 20rem;
+  padding: 0 1rem;
+  margin: 3rem 0rem;
+}
+
+.button {
+  width: 4.5rem;
+  margin: 0.25rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1rem;
+  font-size: 1rem;
+}

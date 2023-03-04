@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #191919;
+  background: #eefafc;
   width: 100%;
   height: 100vh;
   color: white;
@@ -19,16 +19,25 @@ body {
 }
 
 canvas {
-  width: 50%;
-  height: 50vh;
-  background-color: white;
+  /* width: 50%; */
+  /* height: 25vh; */
+  background-color: #eef2f1;
+  border-radius: 5rem;
 }
 
 div.wrapper {
   display: flex;
   flex-direction: column;
+  max-width: 100vw;
   width: 480px;
-  margin: 10% auto;
+  margin: 0 auto;
   text-align: center;
   align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.titleText {
+  font-size: 2rem;
+  margin: 1rem;
 }
