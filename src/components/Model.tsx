@@ -76,7 +76,7 @@ const Model = (props: Props) => {
           </group>
         </>
       ) : (
-        <Html>Loading...</Html>
+        <Html style={{ color: "#000000" }}>Loading...</Html>
       )}
     </>
   );
