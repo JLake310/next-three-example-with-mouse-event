@@ -28,3 +28,5 @@ $ yarn dev
 
 ## Reference
 https://github.com/oslavdev/next-three-example
+
+[3D models] Designed by 조유나
