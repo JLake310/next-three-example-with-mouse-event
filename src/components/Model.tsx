@@ -29,11 +29,12 @@ const Model = (props: Props) => {
 
   /* Load model */
   useEffect(() => {
+    setModel(null);
     const loader = new GLTFLoader();
     loader.load(mbti + ".gltf", async (gltf) => {
       setModel(gltf.scene);
     });
-  }, []);
+  }, [mbti]);
 
   /* Adjust camera position to center model and fit it to the screen */
   useEffect(() => {

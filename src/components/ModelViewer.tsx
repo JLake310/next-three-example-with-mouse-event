@@ -1,23 +1,56 @@
 import Lights from "@/components/Light";
 import Model from "@/components/Model";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls } from "drei";
 
-type Props = {
-  mbti: string;
-};
+const MBTIs = [
+  { name: "ENFJ" },
+  { name: "ENFP" },
+  { name: "ENTJ" },
+  { name: "ENTP" },
+  { name: "ESFJ" },
+  { name: "ESFP" },
+  { name: "ESTJ" },
+  { name: "ESTP" },
+  { name: "INFJ" },
+  { name: "INFP" },
+  { name: "INTJ" },
+  { name: "ISFJ" },
+  { name: "ISTJ" },
+  { name: "ISFP" },
+  { name: "INTP" },
+  { name: "ISTP" },
+];
 
-const ModelViewer = (props: Props) => {
-  const mbti = props.mbti;
+const ModelViewer = () => {
   const controlsRef = useRef();
+  const [mbtiState, setName] = useState("ENFJ");
 
+  const handleChange = (e) => {
+    setName(e.target.value);
+  };
   return (
-    <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
-      <Lights />
-      <Model mbti={mbti} />
-      <OrbitControls ref={controlsRef} />
-    </Canvas>
+    <>
+      <div style={{ width: "400px" }}>
+        {MBTIs.map((MBTI) => (
+          <button
+            key={MBTI.name}
+            value={MBTI.name}
+            onClick={handleChange}
+            style={{ width: "40px", margin: 2 }}
+          >
+            {MBTI.name}
+          </button>
+        ))}
+      </div>
+      <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
+        <Lights />
+        <Model mbti={mbtiState} />
+        <OrbitControls ref={controlsRef} />
+      </Canvas>
+      <span>{mbtiState}</span>
+    </>
   );
 };
 
