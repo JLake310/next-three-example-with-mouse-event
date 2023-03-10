@@ -47,7 +47,7 @@ const ModelViewer = () => {
             className={styles.button}
             style={
               mbtiState === MBTI.name
-                ? { backgroundColor: "#334d92", color: "white" }
+                ? { backgroundColor: "#9be1ed", color: "#effafc" }
                 : {}
             }
           >
