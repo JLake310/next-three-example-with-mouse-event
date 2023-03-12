@@ -33,11 +33,15 @@ const ModelViewer = () => {
   };
   return (
     <>
-      <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
+      <span className={styles.appleB}>어떤 생각이 드나요?</span>
+      <span className={styles.appleM}>어떤 생각이 드나요?</span>
+      <span className={styles.appleR}>어떤 생각이 드나요?</span>
+      <span className={styles.appleER}>어떤 생각이 드나요?</span>
+      {/* <Canvas colorManagement camera={{ position: [0, 0, 5] }}>
         <Lights />
         <Model mbti={mbtiState} />
         <OrbitControls ref={controlsRef} />
-      </Canvas>
+      </Canvas> */}
       <div className={styles.button_container}>
         {MBTIs.map((MBTI) => (
           <button
